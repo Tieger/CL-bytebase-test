@@ -11,10 +11,9 @@ import (
 )
 
 const (
-	DBHost     = "10.20.7.91"
-	//DBHost     = "account-dev.cluster-c9ntc7skbu5q.rds.cn-northwest-1.amazonaws.com.cn"
+	DBHost     = "10.1.1.1"
 	DBUser     = "admin"
-	DBPassword = "admin123"
+	DBPassword = "xxxxxxx"
 	DBName     = "account_test"
 	BatchSize  = 1000
 	TotalUsers = 100000000

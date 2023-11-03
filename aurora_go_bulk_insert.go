@@ -15,10 +15,9 @@ import (
 )
 
 const (
-	DBHost     = "10.20.7.91"
-	//DBHost     = "account-dev.cluster-c9ntc7skbu5q.rds.cn-northwest-1.amazonaws.com.cn"
+	DBHost     = "10.1.1.1"
 	DBUser     = "admin"
-	DBPassword = "admin123"
+	DBPassword = "xxxxxx"
 	DBName     = "account_test"
 	BatchSize  = 1000
 	TotalUsers = 100000000
@@ -26,7 +25,7 @@ const (
 
 func main() {
     // 读取 Aurora 服务器 CA
-    pem, err := ioutil.ReadFile("/data/dba/global-bundle.pem")
+    pem, err := ioutil.ReadFile("/data/dba/xxxxx.pem")
     if err != nil {
         log.Fatalf("Failed to load Aurora server CA: %s", err)
     }
